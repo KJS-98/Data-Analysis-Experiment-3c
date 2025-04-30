@@ -48,7 +48,7 @@ while pNumber <= 215:
         
     showConfIn = True 
     
-    dataFile = os.path.join("data", f"P{pNumber}_StaircaseOnly.csv")
+    dataFile = os.path.join("data", f"P{pNumber}.csv")
     
     plot_folder_path = "output_plots"
     csv_file_path = "analysis_outputs.csv"
