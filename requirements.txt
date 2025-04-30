@@ -1,2 +1,3 @@
 git+https://github.com/wichmann-lab/python-psignifit
 matplotlib==3.7.2
+numpy==1.23.5
