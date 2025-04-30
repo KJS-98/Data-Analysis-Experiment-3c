@@ -48,10 +48,10 @@ while pNumber <= 215:
         
     showConfIn = True 
     
-    dataFile =  f"C:/Users\c21100859\OneDrive - Cardiff University\Documents\PhD\Data\Stepping Complex Judgement\Complex stepping Judgements\Data for Analysis\Data fot analysis\Processed_Files\P{pNumber}_StaircaseOnly.csv"
+    dataFile = os.path.join("data", f"P{pNumber}_StaircaseOnly.csv")
     
-    plot_folder_path = "C:/Users\c21100859\OneDrive - Cardiff University\Documents\PhD\Data\Stepping Complex Judgement\Complex stepping Judgements\Functions"
-    csv_file_path = "C:/Users\c21100859\OneDrive - Cardiff University\Documents\PhD\Data\Stepping Complex Judgement\Complex stepping Judgements\complexSteppingJudgement.csv"
+    plot_folder_path = "output_plots"
+    csv_file_path = "analysis_outputs.csv"
     
     #choose options for psignifit based on experimnet type etc. 
     options = dict()
