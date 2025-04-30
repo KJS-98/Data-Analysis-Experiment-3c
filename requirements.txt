@@ -1,2 +1,2 @@
-psignifit==2023.1.3
+psignifit==0.1
 matplotlib==3.7.2
