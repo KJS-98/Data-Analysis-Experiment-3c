@@ -54,9 +54,9 @@ while pNumber <= 215:
     csv_file_path = "analysis_outputs.csv"
     
     #choose options for psignifit based on experimnet type etc. 
-    options = dict()
-    options['sigmoidName'] = 'neg_gauss'
-    options['expType'] = 'YesNo'
+    options = ps.Options()
+    options.sigmoidName= 'neg_gauss'
+    options.expType = 'YesNo'
     
     # Load the raw data from the .txt" file excluding the last line
     with open(dataFile, 'r') as f:
